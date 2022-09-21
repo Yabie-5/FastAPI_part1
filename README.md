@@ -1,3 +1,3 @@
 # FastAPI_part1
 FastAPIでWebAPIを作ってみるその1
-コミットするための付け足し文
+
