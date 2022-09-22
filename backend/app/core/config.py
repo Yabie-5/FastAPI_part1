@@ -6,7 +6,7 @@ from databases import DatabaseURL
 
 config = Config(".env")
 
-PROJECT_NAME = "Company"
+PROJECT_NAME = "IncidentManagement"
 VERSION = "1.0.0"
 API_PREFIX = "/api"
 
