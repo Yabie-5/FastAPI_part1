@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+from app.core import config, tasks # 追加
 from app.api.routes import router as api_router
 
 
