@@ -6,10 +6,9 @@ WORKDIR /backend
 COPY ./requirements.txt /backend/requirements.txt
 # requirements.txtで記載したミドルウェアのインストールの実行
 
-RUN set -eux \
-    && apk add --no-cache build-base \
-    && pip install --upgrade pip setuptools wheel \
-    && pip install --no-cache-dir --trusted-host pypi.python.org -r /backend/requirements.txt \
-    && apk del build-base 
+RUN apk add --no-cache postgresql-libs \
+    && apk add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev \
+    && python3 -m pip install -r /backend/requirements.txt --no-cache-dir \
+    && apk --purge del .build-deps
 
 COPY . /backend
