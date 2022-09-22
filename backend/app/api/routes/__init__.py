@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.api.routes import ma_companyController
+from app.api.routes.ma_companyController import router as company_router
 
 router = APIRouter()
 
-router.include_router(ma_companyController.router,prefix="/companys",tags=["macompany"])
+router.include_router(company_router,prefix="/companys",tags=["macompany"])
