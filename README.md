@@ -1,6 +1,13 @@
 # FastAPI_part1
 FastAPIでWebAPIを作ってみるその1
 
+- 開発環境 \
+	- Python: 3.10.4 \
+	- FastAPI: 0.78.0 \
+	- Uvicorn: 0.18.1 \
+	- Docker: 20.10.16 \
+	- postgresql: 14.4 \
+
 - フォルダ構造 \
 ┣━backend/ \
 ┃　　┣━app \
