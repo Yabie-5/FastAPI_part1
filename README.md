@@ -1,16 +1,16 @@
 # FastAPI_part1
 FastAPIでWebAPIを作ってみるその1
 
-- フォルダ構造
-┣━backend/
-┃　　┣━app
-┃　　┃　┣━api
-┃　　┃　┃　┗━routes
-┃　　┃　┗━core
-┃　　┣━Dockerfile
-┃　　┗━requirements.txt
-┣━script　　　　　　　　　　　　# 追加
-┗━docker-compose.yml
+- フォルダ構造 \
+┣━backend/ \
+┃　　┣━app \
+┃　　┃　┣━api \
+┃　　┃　┃　┗━routes \
+┃　　┃　┗━core \
+┃　　┣━Dockerfile \
+┃　　┗━requirements.txt \
+┣━script　　　　　　　　　　　　# 追加 \
+┗━docker-compose.yml \
 
 - 参考資料
 
