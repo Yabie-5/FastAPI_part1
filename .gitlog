@@ -1,0 +1,170 @@
+commit 6cc738b326243d58d87f93ab6c3634c7a5f9a94f
+Merge: 7926775 7d57397
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 17:43:39 2022 +0900
+
+    Merge pull request #8 from Yabie-5/migrate
+    
+    Create directory to handle migrate and schema
+
+commit 7d5739747ab760ad98e816474aebdb7f1f6a3e99
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 17:41:50 2022 +0900
+
+    Create directory to handle migrate and schema
+
+commit 7926775163145cc99cd3049e41dd2da7d884425f
+Merge: 1a610b4 0a35298
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 17:22:05 2022 +0900
+
+    Merge pull request #7 from Yabie-5/build
+    
+    Add  connection postgressql in main.py
+
+commit 0a35298f8d8b9e02c5a59da5caab0c0114614776
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 17:19:27 2022 +0900
+
+    Move main file to /api directory and connect postgressql
+
+commit 1a610b49d507d5b312c420081e38fb6bb2ba7613
+Merge: 9960528 8e44718
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 16:56:42 2022 +0900
+
+    Merge pull request #6 from Yabie-5/set-env
+    
+    Set env, config and connection with FastAPI to postgresql
+
+commit 8e447181fc136be3476dc158a7d397cc3f89d1d6
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 16:53:07 2022 +0900
+
+    Set env, config and connection with FastAPI to postgresql
+
+commit 99605285519befb467ab84fc48866c003f4c4cf6
+Merge: 0e43dbc 982ba79
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 15:30:29 2022 +0900
+
+    Merge pull request #5 from Yabie-5/make-db
+    
+    Correct file docker system
+
+commit 982ba79a896f117e730e446547132dffc69a98a8
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 15:28:00 2022 +0900
+
+    Correct file docker system
+
+commit 0e43dbc7c98f8d65859a67768bfe92d1e73b670f
+Merge: 072b3ff 473d14c
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 14:47:39 2022 +0900
+
+    Merge pull request #4 from Yabie-5/make-db
+    
+    READMEに開発環境を追記
+
+commit 473d14c656a9796d91cb6a4cf3d7c30215ffb7e7
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 14:46:33 2022 +0900
+
+    Add development environment
+
+commit 072b3ff76e45ca50a110eda8bc8f7c0336d9ec8d
+Merge: f55d6dd 4e93444
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 12:53:56 2022 +0900
+
+    Merge pull request #3 from Yabie-5/yb-1
+    
+    Add Progresql continer
+
+commit 4e93444e0faf7c537ba500a231d85ca41acedafa
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 12:48:21 2022 +0900
+
+    Add Progresql continer
+
+commit f55d6dd1416d4dea24027e7c8d22607dfb4a6c6f
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 12:34:33 2022 +0900
+
+    Fix folder tree
+    
+    なんか描画がおかしかったので、\ を追加
+
+commit b180463e911ebb35d362626ea8424afab3fc45cf
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 12:32:34 2022 +0900
+
+    Fix moduleName and add folder tree
+
+commit 36ca7cebbf1e9779ddbd4c4a99430479d82a209a
+Merge: b8e9e20 4a9a7a2
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 12:19:10 2022 +0900
+
+    Merge pull request #2 from Yabie-5/yb-1
+    
+    add reference
+
+commit 4a9a7a20cb29b3a7565704b5f60f31c0af8b9224
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 12:18:02 2022 +0900
+
+    add reference
+
+commit b8e9e20627ed6e6871fc5b4f811c6aea8e9f1492
+Merge: e9f8ee3 34cac9d
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 04:03:24 2022 +0900
+
+    Merge pull request #1 from Yabie-5/yb-1
+    
+    try pull
+
+commit 34cac9d10440ec6a69120bb330566ce15072f967
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 04:02:09 2022 +0900
+
+    try pull
+
+commit e9f8ee30e14e184f92aa00112a191dd3c62d0b60
+Merge: fbd8dd9 69db2b2
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 03:58:27 2022 +0900
+
+    fix conflixt2
+
+commit fbd8dd911ea7643eed0ec305d873a9609f59c0b2
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 03:50:59 2022 +0900
+
+    fix conflict
+
+commit cdd5d923fc8959bc0e9cf466ccdbab8a2ddd0030
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 03:36:42 2022 +0900
+
+    1st commit
+
+commit 69db2b28066e31244728ae8918ada72a14c2c268
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 03:27:30 2022 +0900
+
+    Create README.md
+
+commit 5e947a0fcc8ade2f5299d96bc5c5699917b2a4dd
+Author: Yabie-5 <e205744@ie.u-ryukyu.ac.jp>
+Date:   Thu Sep 22 02:55:58 2022 +0900
+
+    1st commit
+
+commit 7b06cd0afa91d97281392e4b3d21712f042c796d
+Author: Yabie-5 <74218171+Yabie-5@users.noreply.github.com>
+Date:   Thu Sep 22 02:51:32 2022 +0900
+
+    Initial commit
