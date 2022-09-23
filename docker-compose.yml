@@ -31,7 +31,7 @@ services:
 
     # Postgresに接続するためのポート（外部からのアクセス時のポート：docker内部からのアクセス時のポート）
     ports: 
-        - "5436:5436"
+        - "5432:543"
     volumes:
       - ./script:/docker-entrypoint-initdb.d    # 追加(scriptフォルダ内にあるスクリプトを実行する。)
       - db-store:/var/lib/postgresql/data       # DBデータ永続化
