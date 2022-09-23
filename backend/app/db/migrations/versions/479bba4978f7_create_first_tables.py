@@ -18,19 +18,20 @@ branch_labels = None
 depends_on = None
 
 
-def create_hedgehogs_table() -> None:
+def create_IncidentManagement_table() -> None:
     op.create_table(
         "IncidentManagement",
         sa.Column("id", sa.Integer, primary_key=True),
         sa.Column("name", sa.Text, nullable=False, index=True),
         sa.Column("description", sa.Text, nullable=True),
-        sa.Column("color_type", sa.Text, nullable=False),
+        sa.Column("created_by", sa.Text, nullable=False),
+        sa.Column("updated_by", sa.Text, nullable=False),
         sa.Column("age", sa.Numeric(10, 1), nullable=False),
     )
 
 def upgrade() -> None:
-    pass
+    create_IncidentManagement_table()
 
 
 def downgrade() -> None:
-    pass
+    op.drop_table("IncidentManagement")
