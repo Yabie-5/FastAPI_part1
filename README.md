@@ -9,15 +9,33 @@ FastAPIでWebAPIを作ってみるその1
 	- postgresql: 14.4 \
 
 - フォルダ構造 \
-┣━backend/ \
-┃　　┣━app \
-┃　　┃　┣━api \
-┃　　┃　┃　┗━routes \
-┃　　┃　┗━core \
-┃　　┣━Dockerfile \
-┃　　┗━requirements.txt \
-┣━script　　　　　　　　　　　　# 追加 \
-┗━docker-compose.yml \
+.
+├── backend
+│   ├── Dockerfile
+│   ├── alembic.ini
+│   ├── app
+│   │   │
+│   │   ├── api
+│   │   │   │
+│   │   │   ├── main.py
+│   │   │   └── routes
+│   │   │       ├── __init__.py
+│   │   │       └── ma_companyController.py
+│   │   ├── core
+│   │   │   ├── config.py
+│   │   │   └── tasks.py
+│   │   └── db
+│   │       ├── __init__.py
+│   │       ├── migrations
+│   │       │   ├── env.py
+│   │       │   ├── script.py.mako
+│   │       │   └── versions
+│   │       ├── repositories
+│   │       │   ├── __init__.py
+│   │       │   └── base.py
+│   │       └── tasks.py
+│   └── requirements.txt
+└── docker-compose.yml
 
 - 参考資料
 
