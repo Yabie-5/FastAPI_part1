@@ -26,6 +26,7 @@ async def connect_to_db(app: FastAPI) -> None:
         logger.warn("--- DATABASE CONNECTION ERROR ---")
         logger.warn(e)
         logger.warn("--- DATABASE CONNECTION ERROR ---")
+        
 
 async def close_db_connection(app: FastAPI) -> None:
     """ 
